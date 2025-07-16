@@ -1,0 +1,21 @@
+body {
+  background-color: #0a0a0a;
+  color: #e2d6c4;
+  font-family: 'Garamond', serif;
+  text-align: center;
+  padding-top: 25vh;
+  margin: 0;
+}
+
+.centered h1 {
+  font-size: 3.2em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.4em;
+}
+
+.centered p {
+  font-style: italic;
+  font-size: 1.2em;
+  color: #aaa;
+}
