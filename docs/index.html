@@ -3,22 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sigloferos</title>
+  <title>Sigl of Eros</title>
   <style>
     body {
       background-color: #0a0a0a;
       color: #e2d6c4;
       font-family: 'Garamond', serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
+      padding: 4vh 8vw;
       margin: 0;
-      text-align: center;
     }
 
     h1 {
+      text-align: center;
       font-size: 3rem;
       letter-spacing: 0.05em;
       margin-bottom: 0.3rem;
@@ -28,31 +24,41 @@
       font-style: italic;
       font-size: 1.1rem;
       color: #b8ada1;
-      margin-bottom: 2rem;
+      text-align: center;
+      margin-bottom: 3rem;
     }
 
-    .card-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      justify-content: center;
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
     }
 
-    .card-button {
-      background: none;
-      border: 1px solid #e2d6c4;
-      color: #e2d6c4;
-      padding: 0.75rem 1.5rem;
-      font-size: 1rem;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: background 0.3s ease, color 0.3s ease;
+    .card {
+      background-color: #111;
+      padding: 1.5rem;
+      border-left: 3px solid #e2d6c4;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.04);
+    }
+
+    .card a {
       text-decoration: none;
+      color: #e2d6c4;
+      font-size: 1.1rem;
     }
 
-    .card-button:hover {
-      background-color: #e2d6c4;
-      color: #0a0a0a;
+    .label {
+      font-variant: small-caps;
+      color: #aaa;
+      font-size: 0.85rem;
+      margin-bottom: 0.6rem;
+      display: block;
+    }
+
+    @media (max-width: 800px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -61,13 +67,42 @@
   <h1>Sigloferos</h1>
   <p>The ache becomes archive</p>
 
-  <div class="card-row">
-    <a href="relic-distracted-bride.html" class="card-button">The Dance of the Distracted Bride</a>
-    <a href="relic-altar-without-flame.html" class="card-button">The Altar Without Flame</a>
-    <a href="relic-phone-knows.html" class="card-button">The Phone Knows First</a>
-    <a href="relic-car-fear.html" class="card-button">The Car Scene That Never Ends</a>
-    <a href="relic-adam-cheating.html" class="card-button">The Guest Room Ghost</a>
+  <div class="grid-container">
+    <div class="card">
+      <span class="label">Relic 1</span>
+      <a href="relic-distracted-bride.html">The Dance of the Distracted Bride</a>
+    </div>
+    <div class="card">
+      <span class="label">Commentary 1</span>
+      <a href="commentary-relic1.html">Disappearing in Plain Sight</a>
+    </div>
 
+    <div class="card">
+      <span class="label">Relic 2</span>
+      <a href="relic-altar-without-flame.html">The Altar Without Flame</a>
+    </div>
+    <div class="card">
+      <span class="label">Commentary 2</span>
+      <a href="commentary-relic2.html">Devotion Starved of Return</a>
+    </div>
+
+    <div class="card">
+      <span class="label">Relic 3</span>
+      <a href="relic-car-fear.html">The Car Scene That Never Ends</a>
+    </div>
+    <div class="card">
+      <span class="label">Commentary 3</span>
+      <a href="commentary-relic3.html">What You Were Denied</a>
+    </div>
+
+    <div class="card">
+      <span class="label">Relic 4</span>
+      <a href="relic-adam-cheating.html">The Guest Room Ghost</a>
+    </div>
+    <div class="card">
+      <span class="label">Commentary 4</span>
+      <a href="commentary-relic4.html">Drunk and Unsoothed</a>
+    </div>
   </div>
 
 </body>
