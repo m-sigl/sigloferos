@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Guest Room Ghost | Sigloferos</title>
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #e2d6c4;
+      font-family: 'Garamond', serif;
+      margin: 0;
+      padding: 4vh 10vw;
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.5em;
+      text-align: center;
+    }
+
+    .tagline {
+      font-style: italic;
+      color: #bba;
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    article {
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: left;
+      background-color: #111;
+      padding: 2rem;
+      border-left: 3px solid #e2d6c4;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+    }
+
+    article p {
+      margin-bottom: 1.2em;
+      font-size: 1.1em;
+    }
+
+    strong {
+      color: #f3e2c0;
+    }
+
+    em {
+      color: #bba;
+    }
+
+    small {
+      display: block;
+      font-variant: small-caps;
+      color: #777;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 4rem;
+      text-decoration: none;
+      color: #e2d6c4;
+      font-style: italic;
+      font-size: 1rem;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>The Guest Room Ghost</h1>
+  <div class="tagline">Relic 0005 — suspicion that never sobered up</div>
+
+  <article>
+    <small>This didn’t happen in words. It happened in silence. And fear filled in the blanks.</small>
+
+    <p>We went out drinking with Nicole’s ex and his fiancée. Adam. The kind of man who always felt like a warning.</p>
+
+    <p>He drove us all back. I passed out on the couch. Woke up dry-mouthed, aching, bowl beside me, empty.  
+    I stumbled into the guest room. Nicole was passed out. Top on. No bottoms.</p>
+
+    <p>We went to IHOP that morning. He was too casual. Too familiar. And I remembered—he had already cheated on someone with Nicole once before.  
+    That history. That possibility.</p>
+
+    <p>She made nothing of it. But my gut made everything.</p>
+
+    <p>I saw it: her drunk. Playful. He finds her in the hallway. Says something low. Familiar.  
+    She touches his arm. He knows that signal. She doesn’t stop him.</p>
+
+    <p>In the dark, behind a guest room door, hands explore what shouldn’t be theirs.  
+    She moans too loud. He hushes her with his mouth.  
+    His fiancée asleep in the other room. Me unconscious in the next.</p>
+
+    <p>No protection. No confession. No acknowledgment.</p>
+
+    <p><em>And she wakes up like nothing happened.  
+    Because maybe nothing did.  
+    Or maybe everything did.  
+    And only I stayed haunted.</em></p>
+
+    <p><strong>This is the ghost I still host.  
+    A relic of what she never said.  
+    But what my body still feels.</strong></p>
+  </article>
+
+  <a class="back-link" href="index.html">← Return to the Archive</a>
+
+</body>
+</html>
